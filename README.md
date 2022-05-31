@@ -21,5 +21,6 @@
 *can unwrap weak self to strong and still retain memory managemtn*
 
 ```swift
-
+guard let self = self else { return }
+      self.doSomething()
 ```
