@@ -18,7 +18,7 @@
 **When referencing back to parent object, best practice to release the child object with weak reference to self**
 * anything weak has to have a strong ref
 
-*can unwrap weak self to strong and still retain memory managemtn*
+*can unwrap weak self to strong and still retain memory management*
 
 ```swift
 guard let self = self else { return }
