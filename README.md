@@ -8,7 +8,7 @@
 * one can not go away with out both leaving so always available 
 
 
-# Weak 
+## Weak 
 * 0 to 1 reference 
 * Parent retains strong reference to child 
 * Child has weak reference to parent
